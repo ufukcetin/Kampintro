@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Metotlar
+{
+    class SepetManager
+    {
+        public void Ekle(Urun urun)
+        {
+            Console.WriteLine("Sepete eklendi.."+urun.Adi);
+
+        }
+
+        public void ekle2(string urunadi,string aciklama,double fiyat,double stokadedi)
+        {
+
+            Console.WriteLine("Tebrikler.Sepete ürün eklendi:"+aciklama);
+        }
+
+    }
+}
